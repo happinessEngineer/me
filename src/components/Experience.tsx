@@ -90,7 +90,7 @@ const Experience: FC = () => {
               >
                 {/* Circle on timeline */}
                 <motion.div 
-                  className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-green-500 rounded-full"
+                  className={`absolute left-4 ${index % 2 !== 0 ? 'md:left-[calc(50%_-_1rem)]' : 'md:left-1/2 md:-translate-x-[calc(100%_+_8px)]'} transform -translate-y-1/2 w-4 h-4 bg-green-500 rounded-full`}
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
                   viewport={{ once: true }}
