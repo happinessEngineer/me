@@ -5,8 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://carboneauj.github.io',
-  base: '/personal-website',
+  site: 'https://happinessengineer.github.io',
+  base: '/me',
   integrations: [
     react({
       include: ['**/react/*', '**/components/*'],
