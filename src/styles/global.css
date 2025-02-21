@@ -1,0 +1,12 @@
+/* Global styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+  --color-primary: #16a34a;  /* green-600 */
+  --color-secondary: #1d4ed8;  /* blue-700 */
+}
+
+/* Add your custom CSS here */
