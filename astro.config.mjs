@@ -5,6 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://carboneauj.github.io',
+  base: '/personal-website',
   integrations: [
     react({
       include: ['**/react/*', '**/components/*'],
